@@ -11,7 +11,7 @@ if __name__ == '__main__':
     
     publish_frequency = rospy.get_param("/number_publish_frequency")
     number = rospy.get_param("/number_to_publish")
-    rospy.set_param("/another_param", "Hello")
+    # rospy.set_param("/another_param", "Hello")
     
     rate = rospy.Rate(publish_frequency)
     

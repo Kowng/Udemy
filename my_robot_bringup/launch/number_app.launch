@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+<node pkg="my_robot_tutorials" type="number_publisher.py" name="the_number_node_publisher">
+    
+</node>
+    <param name="/number_publish_frequency" type="double" value="3.0"/>
+    <param name="/number_to_publish" type="int" value="10"/>
+</launch>
